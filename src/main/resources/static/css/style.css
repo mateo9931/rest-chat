@@ -7,7 +7,6 @@
 body {
     background: #e0c400;
     font: 14px/20px "Lato", Arial, sans-serif;
-    padding: 40px 0;
     color: white;
 }
 
@@ -15,7 +14,7 @@ body {
     margin: 0 auto;
     width: 750px;
     background: #171615;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .people-list {
