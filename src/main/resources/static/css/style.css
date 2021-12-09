@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #C5DDEB;
+    background: #e0c400;
     font: 14px/20px "Lato", Arial, sans-serif;
     padding: 40px 0;
     color: white;
@@ -14,7 +14,7 @@ body {
 .container {
     margin: 0 auto;
     width: 750px;
-    background: #444753;
+    background: #171615;
     border-radius: 5px;
 }
 
@@ -31,8 +31,8 @@ body {
     border-radius: 3px;
     border: none;
     padding: 14px;
-    color: #e1e1e1;
-    background: #6A6C75;
+    color: black;
+    background: white;
     width: 90%;
     font-size: 14px;
 }
@@ -71,7 +71,7 @@ body {
 .chat {
     width: 490px;
     float: left;
-    background: #F2F5F8;
+    background: white;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #434651;
@@ -148,21 +148,22 @@ ul {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #86BB71;
+    border-bottom-color: #e0c400;
     border-width: 10px;
     margin-left: -10px;
 }
 
 .chat .chat-history .my-message {
-    background: #86BB71;
+    background: black;
+    color: white;
 }
 
 .chat .chat-history .other-message {
-    background: #94C2ED;
+    background: #e0c400;
 }
 
 .chat .chat-history .other-message:after {
-    border-bottom-color: #94C2ED;
+    border-bottom-color: #e0c400;
     left: 93%;
 }
 
@@ -188,7 +189,7 @@ ul {
 
 .chat .chat-message button {
     float: right;
-    color: #94C2ED;
+    color: #e0c400;
     font-size: 16px;
     text-transform: uppercase;
     border: none;
@@ -198,7 +199,7 @@ ul {
 }
 
 .chat .chat-message button:hover {
-    color: #75b1e8;
+    color: #e0c400;
 }
 
 .online, .offline, .me {
@@ -215,7 +216,7 @@ ul {
 }
 
 .me {
-    color: #94C2ED;
+    color: #e0c400;
 }
 
 .align-left {
